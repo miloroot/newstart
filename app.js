@@ -10,5 +10,5 @@ miloApp.config(["$routeProvider", "$locationProvider", function($routeProvider, 
             redirectTo: "/"
         });
 
-    $locationProvider.html5mode(true);
+    $locationProvider.html5Mode(true);
 }])
