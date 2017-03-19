@@ -1,3 +1,3 @@
 miloApp.controller("homeController", ["$http", "$scope", function($http, $scope){
-    $scope.helloMessage = "Welcome";
+    $scope.homeMessage = "Viewing partial/home.html with homeController as controller.";
 }])
