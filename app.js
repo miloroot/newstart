@@ -14,6 +14,10 @@ miloApp.config(["$routeProvider", "$locationProvider", function($routeProvider, 
             templateUrl: "partials/skills.html",
             controller: "skillsController"
         })
+        .when("/contact", {
+            templateUrl: "partials/contact.html",
+            controller: "contactController"
+        })
         .otherwise({
             redirectTo: "/"
         });
